@@ -25,6 +25,7 @@ class OccupationalHealthandEngineering:
               yield self.sex
               yield self.city
               yield self.gdp
+              # we can use another simple way like below but personally i like yield function.
               # print(f'Full info\nname: {self.nameandSurname}\nsex: {self.sex}\ncity: {self.city}\ngdp: {self.gdp}')
 
        def get_count(self):
